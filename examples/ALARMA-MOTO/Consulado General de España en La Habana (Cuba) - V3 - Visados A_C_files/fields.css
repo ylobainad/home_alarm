@@ -1,0 +1,47 @@
+/**********/
+/* FIELDS */
+/**********/
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer input[type="text"],
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer input[type="password"]{
+    height: 25px;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer textarea{
+    box-sizing: border-box;
+    height: 80px;
+    max-width: 100%;
+    min-height: 80px;
+    min-width: 100%;
+    padding-left: 10px;
+    padding-top: 7px;
+    width: 100%;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer textarea,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer input{
+    -webkit-appearance: none;
+    -webkit-focus-ring-color: none;
+    -webkit-border-radius:0px;
+    border-radius: 0px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer input[type="checkbox"]{
+    display: none;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer input[type="checkbox"] + label{
+    background: #fff;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../../../images/widgets/default/services/check_02.png") 0px 0px no-repeat;
+    text-indent: -1000em;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer input[type="checkbox"]:checked + label{
+    background: url("../../../images/widgets/default/services/check_02.png") 0px -16px no-repeat;
+}
+

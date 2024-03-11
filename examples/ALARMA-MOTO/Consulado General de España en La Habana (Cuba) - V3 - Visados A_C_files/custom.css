@@ -1,0 +1,42 @@
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultCustomContainer{
+    padding: 15px 15px 0;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultCustomContainer .clsDivFieldCustomLabel{
+    margin-bottom: 5px;
+    color: #e7522d;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultCustomContainer .clsDivFieldCustomInput{
+    margin-bottom: 15px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultCustomContainer .clsFieldCustomInputSelect{
+    min-width: 25%;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultCustomContainer #idDivBktButtonCustomContinueContainer{
+    text-align: right;
+    margin-top: 30px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktServicesBackToCustomContainer{
+    margin-bottom: 30px;
+    display: table;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktServicesBackToCustomImage{
+    background-image: url("../../../images/widgets/default/services/back.png");
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 13px;
+    display: table-cell;
+    vertical-align: middle;
+    background-position: 50% 50%;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktServicesBackToCustomText{
+    display: table-cell;
+    padding-left: 10px;
+    vertical-align: middle;
+}

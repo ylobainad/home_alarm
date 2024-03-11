@@ -1,0 +1,214 @@
+/***********/
+/* HISTORY */
+/***********/
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryContainer{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistorySubHeaderAppointmentsList .clsDivBktSubHeaderExtraOptionIconText{
+    background-image: url("../../../images/widgets/default/history/list_dark.png");
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistorySubHeaderChangePassword .clsDivBktSubHeaderExtraOptionIconText{
+    background-image: url("../../../images/widgets/default/history/lock_white.png");
+    color: #FFF;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistorySubHeaderChangePassword{
+    background-color: #717171;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+/*********/
+/* EVENT */
+/*********/
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryContent{
+    display: table;
+    width: 100%;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryContentServicesContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryContentDatesContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryContentTimesContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryContentStatesContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryContentActionsContainer{
+    display: table-cell;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentRow{
+    display: table-row;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentHeader{
+    display: table-cell;
+    font-weight: bold;
+    height: 25px;
+    border-bottom: 1px solid #fff;
+    padding-right: 20px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentData{
+    display: table-cell;
+    /*height: 40px;*/
+    vertical-align: middle;
+    border-bottom: 1px solid #fff;
+    padding-right: 20px;
+    font-size: 0.867em;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataPrintContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataDeleteContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataVideocallContainer{
+    /*margin-left: 3px;*/
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataDeleteContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataVideocallContainer{
+    margin-left: 3px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataPrintContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataDeleteContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataVideocallContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataPollContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataPrintIcon,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataDeleteIcon,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataVideocallIcon,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataPollIcon{
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataVideocallIcon,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataPollIcon{
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;    
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataPrintIcon{
+    background-image: url("../../../images/widgets/default/history/print.png");
+    cursor: pointer;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataDeleteIcon{
+    background-image: url("../../../images/widgets/default/history/delete.png");
+    cursor: pointer;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataVideocallIcon{
+    background-image: url("../../../images/widgets/default/history/video_list_services.svg");
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataPollIcon{
+    background-image: url("../../../images/widgets/default/history/poll.svg");
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataMobile{
+    display: none;
+    margin-top: 10px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataActions{
+    text-align: center;
+    padding-right: 0;
+    white-space: nowrap;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataDate,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataTime{
+    white-space: nowrap;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryContentNoEvents{
+    background: #D4D4D4;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataCanceled{
+    color: #E7522D;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataPending{
+    color: #5194D6;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataRejected{
+    color: #B7C3D2;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataCompleted{
+    color: #9CCC50;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryService{
+    font-weight: bold;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryExtraService{
+    padding-left: 15px;
+    margin-top: 5px;
+}
+
+/**********************/
+/* CANCEL APPOINTMENT */
+/**********************/
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryCancelAppointmentConfirmTitle,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryCancelAppointmentErrorTitle{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryCancelAppointmentContainer{
+    position: absolute;
+    z-index: 99999;
+    top: 160px;
+    left: 50%;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryCancelAppointmentConfirmContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryCancelAppointmentErrorContainer{
+    background-color: #fff;
+    left: -50%;
+    max-width: 460px;
+    min-width: 460px;
+    padding: 20px;
+    position: relative;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryCancelAppointmentConfirmContainer .clsDivCancelButton{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+/**********/
+/* @MEDIA */
+/**********/
+@media only screen and (max-width: 1365px){
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 570px){
+    
+}
+
+@media only screen and (max-width: 425px){
+
+}
+
+@media only screen and (max-width: 319px){
+
+}

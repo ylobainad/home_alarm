@@ -1,0 +1,270 @@
+/**********/
+/* SIGNIN */
+/**********/
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInSubHeaderNewAccount .clsDivBktSubHeaderExtraOptionIconText{
+    background-image: url("../../../images/widgets/default/signup/anadir_bl.png");
+    color: #FFF;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInSubHeaderAccount .clsDivBktSubHeaderExtraOptionIconText{
+    background-image: url("../../../images/widgets/default/signup/cuenta_gr.png");
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInSubHeaderNewAccount{
+    background-color: #717171;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+/**********/
+/* FIELDS */
+/**********/
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer input[type="text"],
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer input[type="tel"],
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer input[type="password"]{
+    height: 25px;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer textarea{
+    box-sizing: border-box;
+    height: 80px;
+    max-width: 100%;
+    min-height: 80px;
+    min-width: 100%;
+    padding-left: 10px;
+    padding-top: 7px;
+    width: 100%;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer textarea,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer input{
+    -webkit-appearance: none;
+    -webkit-focus-ring-color: none;
+    -webkit-border-radius:0px;
+    border-radius: 0px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignInCommentsField{
+    padding-right: 15px;
+    margin-top: 15px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignInSubFooterContainer{
+    padding-right: 15px;
+    margin-top: 15px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignInAccept{
+    float: left;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignInConfirmButtonContainer{
+    float: right;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignInRecoveryPasswordContainer{
+    float: left;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignInAcceptInput{
+    float: left;
+    margin-right: 10px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignInAcceptText{
+    float: left;
+    font-size: 0.867em;
+    line-height: 16px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer input[type="checkbox"]{
+    display: none;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer input[type="checkbox"] + label{
+    background: #fff;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../../../images/widgets/default/services/check_02.png") 0px 0px no-repeat;
+    text-indent: -1000em;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer input[type="checkbox"]:checked + label{
+    background: url("../../../images/widgets/default/services/check_02.png") 0px -16px no-repeat;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idSpanBktDefaultSignInLinkAccept{
+    color: #e7522d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/******************/
+/* FIELDS COLUMNS */
+/******************/
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInRow,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInHalvedRow,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputDropAndTextContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputCheckboxContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputDropContainer{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInHalvedRow .clsDivBktSignInFormInput,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInRow .clsDivBktSignInFormInput{
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInHalvedRow .clsDivBktSignInFormInput{
+    display: table-cell;
+    vertical-align: top;
+}
+
+/*** Drop + text ***/
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInRow .clsDivBktSignInFormInputDropAndTextFieldSelect,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInHalvedRow .clsDivBktSignInFormInputDropAndTextFieldSelect{
+    display: table-cell;
+    vertical-align: top;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputDropAndTextFieldSelect{
+    width: 85px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInRow .clsDivBktSignInFormInputDropAndTextFieldSelect select,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInHalvedRow .clsDivBktSignInFormInputDropAndTextFieldSelect select{
+    cursor: pointer;
+    color: #666;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputDropAndTextFieldSelect select{
+    width: 85px;
+    /*width: 140px;*/
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputDropAndTextFieldInput{
+    display: table-cell;
+    padding-left: 15px;
+    vertical-align: top;
+    width: 100%;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputDropAndTextContainer input[type="text"],
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputDropAndTextContainer input[type="tel"]{
+    margin-bottom: 0px !important;
+}
+
+/*** Checkbox ***/
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputCheckboxContainer{
+    height: 25px;
+    padding-right: 15px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputCheckboxInput{
+    width: 16px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputCheckboxLabel{
+    display: table-cell;
+    overflow: hidden;
+    padding-left: 10px;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/*** Drop ***/
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInRow .clsDivBktSignInFormInputDropContainer select,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInHalvedRow .clsDivBktSignInFormInputDropContainer select{
+    cursor: pointer;
+    color: #666;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInRow .clsDivBktSignInFormInputDropContainer select{
+    width: 100%;  
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInHalvedRow .clsDivBktSignInFormInputDropContainer select{
+    width: 100%;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultInputError{
+    color: #FFF !important;
+    background-color: #ee8369;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultFieldError{
+    color: #E7522D;
+    background-color: #f3f5f7;
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: none;
+    font-size: 0.667em;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignInErrorContainer{
+    padding-right: 15px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer #idDivBktDefaultSignInRecoveryPassword{
+    color: #e7522d;
+    cursor: pointer;
+    font-size: 0.733em;
+    text-align: left;
+    text-decoration: underline;
+    float: left;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer #idBktDefaultSignedInAttachFileContainer{
+    margin-top: 15px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer #idIptBktSignedInAttachFile.clsDivBktDefaultInputError{
+    background: inherit;
+}
+
+/**********/
+/* @MEDIA */
+/**********/
+@media only screen and (max-width: 1365px){
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 570px){
+    
+}
+
+@media only screen and (max-width: 425px){
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInHalvedRow .clsDivBktSignInFormInput{
+        display: block;
+    }
+    
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignInConfirmButtonContainer {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 319px){
+
+}

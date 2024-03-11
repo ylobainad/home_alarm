@@ -1,0 +1,219 @@
+/**
+* Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+* http://cssreset.com
+*/
+
+#idBktWidgetBody html, 
+#idBktWidgetBody body, 
+#idBktWidgetBody div, 
+#idBktWidgetBody span, 
+#idBktWidgetBody applet, 
+#idBktWidgetBody object, 
+#idBktWidgetBody iframe,
+#idBktWidgetBody h1, 
+#idBktWidgetBody h2, 
+#idBktWidgetBody h3, 
+#idBktWidgetBody h4, 
+#idBktWidgetBody h5, 
+#idBktWidgetBody h6, 
+#idBktWidgetBody p, 
+#idBktWidgetBody blockquote, 
+#idBktWidgetBody pre,
+#idBktWidgetBody a, 
+#idBktWidgetBody abbr, 
+#idBktWidgetBody acronym, 
+#idBktWidgetBody address, 
+#idBktWidgetBody big, 
+#idBktWidgetBody cite, 
+#idBktWidgetBody code,
+#idBktWidgetBody del, 
+#idBktWidgetBody dfn, 
+#idBktWidgetBody em, 
+#idBktWidgetBody img, 
+#idBktWidgetBody ins, 
+#idBktWidgetBody kbd, 
+#idBktWidgetBody q, 
+#idBktWidgetBody s, 
+#idBktWidgetBody samp,
+#idBktWidgetBody small, 
+#idBktWidgetBody strike, 
+#idBktWidgetBody strong, 
+#idBktWidgetBody sub, 
+#idBktWidgetBody sup, 
+#idBktWidgetBody tt, 
+#idBktWidgetBody var,
+#idBktWidgetBody b, 
+#idBktWidgetBody u, 
+#idBktWidgetBody i, 
+#idBktWidgetBody center,
+#idBktWidgetBody dl, 
+#idBktWidgetBody dt, 
+#idBktWidgetBody dd, 
+#idBktWidgetBody ol, 
+#idBktWidgetBody ul, 
+#idBktWidgetBody li,
+#idBktWidgetBody fieldset, 
+#idBktWidgetBody form, 
+#idBktWidgetBody label, 
+#idBktWidgetBody legend,
+#idBktWidgetBody table, 
+#idBktWidgetBody caption, 
+#idBktWidgetBody tbody, 
+#idBktWidgetBody tfoot, 
+#idBktWidgetBody thead, 
+#idBktWidgetBody tr, 
+#idBktWidgetBody th, 
+#idBktWidgetBody td,
+#idBktWidgetBody article, 
+#idBktWidgetBody aside, 
+#idBktWidgetBody canvas, 
+#idBktWidgetBody details, 
+#idBktWidgetBody embed,
+#idBktWidgetBody figure, 
+#idBktWidgetBody figcaption, 
+#idBktWidgetBody footer, 
+#idBktWidgetBody header, 
+#idBktWidgetBody hgroup,
+#idBktWidgetBody menu, 
+#idBktWidgetBody nav, 
+#idBktWidgetBody output, 
+#idBktWidgetBody ruby, 
+#idBktWidgetBody section, 
+#idBktWidgetBody summary,
+#idBktWidgetBody time, 
+#idBktWidgetBody mark, 
+#idBktWidgetBody audio, 
+#idBktWidgetBody video,
+#idBktWidgetBody input,
+#idBktWidgetBody textarea{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+#idBktWidgetBody article, 
+#idBktWidgetBody aside, 
+#idBktWidgetBody details, 
+#idBktWidgetBody figcaption, 
+#idBktWidgetBody figure,
+#idBktWidgetBody footer, 
+#idBktWidgetBody header, 
+#idBktWidgetBody hgroup, 
+#idBktWidgetBody menu, 
+#idBktWidgetBody nav, 
+#idBktWidgetBody section{
+    display: block;
+}
+
+#idBktWidgetBody body{
+    line-height: 1;
+}
+
+#idBktWidgetBody ol, 
+#idBktWidgetBody ul{
+    list-style: none;
+}
+
+#idBktWidgetBody blockquote, 
+#idBktWidgetBody q{
+    quotes: none;
+}
+
+#idBktWidgetBody blockquote:before, 
+#idBktWidgetBody blockquote:after,
+#idBktWidgetBody q:before, 
+#idBktWidgetBody q:after{
+    content: '';
+    content: none;
+}
+
+#idBktWidgetBody table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#idBktWidgetBody div{
+    color: #666666;
+    font-family: Arial,Helvetica,Verdana !important;
+    font-size: 1em;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+#idBktWidgetBody span{
+    color: #666666;
+    font-family: Arial,Helvetica,Verdana !important;
+    font-size: 1em;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+#idBktWidgetBody select{
+    color: #666666;
+    font-family: Arial,Helvetica,Verdana !important;
+    font-size: 1em;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+#idBktWidgetBody option{
+    color: #666666;
+    font-family: Arial,Helvetica,Verdana !important;
+    font-size: 1em;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+#idBktWidgetBody a{
+    color: #666666;
+    font-family: Arial,Helvetica,Verdana !important;
+    font-size: 1em;
+    text-align: left;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 1em;
+}
+
+#idBktWidgetBody input[type="text"]{
+    color: #666666;
+    font-family: Arial,Helvetica,Verdana !important;
+    font-size: 1em;
+    text-align: left;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 1em;
+    background-color: #FFF;
+    border: medium none !important;
+}
+
+#idBktWidgetBody input[type="password"]{
+    color: #666666;
+    font-family: Arial,Helvetica,Verdana !important;
+    font-size: 1em;
+    text-align: left;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 1em;
+    background-color: #FFF;
+    border: medium none !important;
+}
+
+#idBktWidgetBody textarea{
+    color: #666666;
+    font-family: Arial,Helvetica,Verdana !important;
+    font-size: 1em;
+    text-align: left;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 1em;
+    background-color: #FFF;
+    border: medium none !important;
+}

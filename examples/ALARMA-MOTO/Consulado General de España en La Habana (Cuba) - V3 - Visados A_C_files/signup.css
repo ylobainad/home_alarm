@@ -1,0 +1,308 @@
+/**********/
+/* SIGNUP */
+/**********/
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpContainer{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpSubHeaderNewAccount .clsDivBktSubHeaderExtraOptionIconText{
+    background-image: url("../../../images/widgets/default/signup/anadir_gr.png");
+    color: #666666;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpSubHeaderAccount .clsDivBktSubHeaderExtraOptionIconText{
+    background-image: url("../../../images/widgets/default/signup/cuenta_bl.png");
+    color: #FFF;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpSubHeaderAccount{
+    background-color: #717171;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+/**********/
+/* FIELDS */
+/**********/
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpContainer input[type="text"],
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpContainer input[type="tel"]{
+    height: 25px;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpContainer textarea{
+    box-sizing: border-box;
+    height: 80px;
+    max-width: 100%;
+    min-height: 80px;
+    min-width: 100%;
+    padding-left: 10px;
+    padding-top: 7px;
+    width: 100%;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpContainer textarea,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpContainer input{
+    -webkit-appearance: none;
+    -webkit-focus-ring-color: none;
+    -webkit-border-radius:0px;
+    border-radius: 0px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignUpCommentsField{
+    padding-right: 15px;
+    margin-top: 15px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignUpSubFooterContainer{
+    padding-right: 15px;
+    margin-top: 15px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignUpAccept{
+    float: left;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignUpConfirmButtonContainer{
+    float: right;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignUpAcceptInput{
+    float: left;
+    margin-right: 10px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktRGPDSignUpAcceptText,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignUpAcceptText{
+    float: left;
+    font-size: 0.867em;
+    line-height: 16px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpContainer input[type="checkbox"]{
+    display: none;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpContainer input[type="checkbox"] + label{
+    background: #fff;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../../../images/widgets/default/services/check_02.png") 0px 0px no-repeat;
+    text-indent: -1000em;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpContainer input[type="checkbox"]:checked + label{
+    background: url("../../../images/widgets/default/services/check_02.png") 0px -16px no-repeat;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idSpanBktDefaultSignUpLinkAccept{
+    color: #e7522d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/******************/
+/* FIELDS COLUMNS */
+/******************/
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpRow,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpHalvedRow,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputDropAndTextContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputCheckboxContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputDropContainer{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpHalvedRow .clsDivBktSignupFormInput,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpRow .clsDivBktSignupFormInput{
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpHalvedRow .clsDivBktSignupFormInput{
+    display: table-cell;
+    vertical-align: top;
+}
+
+/*** Drop + text ***/
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpRow .clsDivBktSignupFormInputDropAndTextFieldSelect,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpHalvedRow .clsDivBktSignupFormInputDropAndTextFieldSelect{
+    display: table-cell;
+    vertical-align: top;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputDropAndTextFieldSelect{
+    width: 85px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpRow .clsDivBktSignupFormInputDropAndTextFieldSelect select,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpHalvedRow .clsDivBktSignupFormInputDropAndTextFieldSelect select{
+    cursor: pointer;
+    color: #666;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputDropAndTextFieldSelect select{
+    width: 85px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputDropAndTextFieldInput{
+    display: table-cell;
+    padding-left: 15px;
+    vertical-align: top;
+    width: 100%;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputDropAndTextContainer input[type="text"],
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputDropAndTextContainer input[type="tel"]{
+    margin-bottom: 0px !important;
+}
+
+/*** Checkbox ***/
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputCheckboxContainer{
+    height: 25px;
+    padding-right: 15px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputCheckboxInput{
+    width: 16px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputCheckboxLabel{
+    display: table-cell;
+    overflow: hidden;
+    padding-left: 10px;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/*** Drop ***/
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpRow .clsDivBktSignupFormInputDropContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpHalvedRow .clsDivBktSignupFormInputDropContainer{
+
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpRow .clsDivBktSignupFormInputDropContainer select,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpHalvedRow .clsDivBktSignupFormInputDropContainer select{
+    cursor: pointer;
+    color: #666;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpRow .clsDivBktSignupFormInputDropContainer select{
+    width: 100%;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpHalvedRow .clsDivBktSignupFormInputDropContainer select{
+    width: 100%;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultInputError{
+    color: #FFF !important;
+    background-color: #ee8369;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultFieldError{
+    color: #E7522D;
+    background-color: #f3f5f7;
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: none;
+    font-size: 0.667em;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignUpErrorContainer{
+    padding-right: 15px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultInputError::-webkit-input-placeholder{ /* WebKit browsers */
+    color: #FFF !important;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultInputError:-moz-placeholder{ /* Mozilla Firefox 4 to 18 */
+   color: #FFF !important;
+   opacity: 1 !important;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultInputError::-moz-placeholder{ /* Mozilla Firefox 19+ */
+   color: #FFF !important;
+   opacity: 1 !important;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultInputError:-ms-input-placeholder{ /* Internet Explorer 10+ */
+   color: #FFF !important;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivReCaptcha{
+    width: 100%;
+    height: 65px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivReCaptcha .grecaptcha-badge{
+    margin-top: 20px !important;
+    width: 100% !important;
+    height: 100% !important;
+    box-shadow: none !important;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivReCaptcha .grecaptcha-badge .grecaptcha-logo{
+    height: 100%;
+    width: 100%;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivReCaptcha .grecaptcha-badge .grecaptcha-logo iframe{
+    height: 100%;
+    width: 100%;    
+    zoom: 0.15;
+    -moz-transform:scale(0.75);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.75);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.75);
+    -webkit-transform-origin: 0 0;
+}
+
+
+
+
+
+
+
+
+
+/**********/
+/* @MEDIA */
+/**********/
+@media only screen and (max-width: 1365px){
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 570px){
+    
+}
+
+@media only screen and (max-width: 425px){
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpHalvedRow .clsDivBktSignupFormInput{
+        display: block;
+    }
+    
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignUpConfirmButtonContainer {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 319px){
+
+}

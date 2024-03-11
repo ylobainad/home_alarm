@@ -1,0 +1,274 @@
+/***********/
+/* SUMMARY */
+/***********/
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktWaitingListSummaryContainer{
+    padding: 15px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryHeaderContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktWaitingListSummaryBodyContainer{
+    background-color: #E9F6D4;
+    display: table;
+    height: 40px;
+    min-height: 40px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryHeader{
+    text-transform: uppercase;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #81C04D;
+    font-weight: bold;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktWaitingListSummaryBodyContent{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktWaitingListSummaryText{
+    text-align: center;
+    color: #81C04D;
+    font-weight: bold;
+    font-size: 1.333em;
+    margin-bottom: 10px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktWaitingListSummarySubText{
+    text-align: center;
+    color: #81C04D;
+    font-size: 0.867em;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBodyContainer{
+    margin-top: 10px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBodyTop{
+    background-color: #FFF;
+    padding: 15px 20px;
+    border-bottom: 1px solid #F3F5F7;
+    border-top: 1px solid #F3F5F7;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBodyTopLeft{
+    float: left;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBodyRight{
+    float: right;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idSpanBktBodyTopLeftLabel,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idSpanBktBodyTopRightLabel{
+    color: #e7522d;
+    font-weight: bold;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idSpanBktBodyTopLeftLabelText,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idSpanBktBodyTopRightLabelText{
+    font-weight: bold;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBodyContent{
+    background-color: #FFF;  
+    display: table;
+    font-size: 0.867em;
+    width: 100%;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryAppointmentsContainer{
+    display: table-cell;
+    vertical-align: top;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryAppointmentsContent,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryAppointmentsInfoBottom,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryAppointmentsInfoMiddle{    
+    padding: 15px 20px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryPrinterContainer{
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 20px;
+    padding-top: 15px;
+    max-width: 19px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryPrinter{
+    background-image: url("../../../images/widgets/default/summary/print.png");
+    width: 19px;
+    height: 17px;
+    cursor: pointer;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryPayment{
+    background-color: #FFF;
+    width:100%;
+    margin-top:1px;    
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryPaymentContent {
+    margin-top: 10px;
+    font-size: 1.0em;
+    display: table;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsBktSummaryPaymentContentRow {
+    display:table-row;    
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsBktSummaryPaymentContentCell {
+    display:table-cell;
+    line-height: 1.2em;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsBktSummaryPaymentContentCellEmpty {
+    width: 25px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBodyCancel{
+    /*margin-top: 25px;*/
+    /*font-size: 0.733em;*/
+    padding-right: 20px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktSummaryFooter,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWaitingListSummaryFooter,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktSummaryFooterLeft{
+    margin-top: 20px;
+    font-size: 0.733em;
+    display: table;
+    width: 100%;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktSummaryFooterRight,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWaitingListSummaryFooterLeft,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWaitingListSummaryFooterRight,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBodyCancel{
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktSummaryFooterRight,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWaitingListSummaryFooterRight{
+    text-align: right;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryAppointmentsInfoTop{
+    background-color: #FFF;
+    padding: 15px 20px;
+    font-size: 0.867em;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBackButton{
+    padding: 10px;
+    white-space: nowrap;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSummaryAppointmentRow{
+    margin-bottom: 5px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSummaryAppointmentRowInlineBlockData{
+    display: inline-block; 
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSummaryAppointmentRowMarginRightData{
+    margin-right: 20px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSummaryAppointmentRowMarginLeftData{
+    margin-left: 20px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSummaryAppointmentNextRow{
+    margin-top: 5px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idSpanBktSummaryCancelAppointment{
+    /*cursor: pointer;*/
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSummaryAppointmentsContent{
+    border-bottom: 1px solid #f3f5f7;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSummaryAppointmentFirst{
+    border: none;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSummaryContainer .clsTextOrange{
+    font-weight: bold;
+}
+
+
+/**********/
+/* @MEDIA */
+/**********/
+@media only screen and (max-width: 1365px){
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 570px),
+only screen and (min-width: 320px) and (max-width: 480px),
+only screen and (max-width: 319px){
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBodyTopLeft{
+        float: none;
+    }
+    
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBodyRight{
+        float: none;
+        margin-top: 5px;
+    }
+    
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktSummaryFooterLeft, 
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktSummaryFooterRight,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWaitingListSummaryFooterLeft, 
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWaitingListSummaryFooterRight {
+        display: block;
+    }
+    
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktSummaryFooterRight,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWaitingListSummaryFooterRight{
+        margin-top: 15px;
+    }
+    
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBackButton {
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryAppointmentsContainer {
+        display: table-footer-group;
+    }
+    
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryPrinterContainer {
+        display: table-header-group;
+    }
+    
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryPrinter {
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        float: right;
+        padding: 20px 20px 0;
+    }
+    
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryAppointmentsContent,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryAppointmentsInfoBottom,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryAppointmentsInfoMiddle{
+        padding: 0 20px 15px;
+    }
+}
